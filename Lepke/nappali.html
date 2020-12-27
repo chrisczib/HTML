@@ -12,37 +12,36 @@
         text-align: center;
         color: white;
       }
-      .nappaliTablazat{
-        border-style: solid;
-        border-width: 5px;
+      table{
         width: 640pt;
         text-align: center;
-        background: url("/hatter.jpg");
+        border-spacing: 5pt;
+        padding: 5pt;
       }
-      tr,td{
-        border-width: 5px;
-        border-style: dotted;
+      .images{
+        border-style: solid;
+        border-width: 1pt;
       }
-    </style>
+      </style>
   </head>
 
   <body>
     <h1>Nappali vagy éjjeli lepke?</h1>
-    <table class="nappaliTablazat">
+    <table background="hatter.jpg">
       <tr>
-        a nappali lepke
+        <td colspan="2">nappali lepke</td>
       </tr>
       <tr>
-        <td>egy</td>
-        <td>kettő</td>
+        <td><img class="images" src="k1.jpg" alt="k1">  </td>
+        <td>A nappali lepkék felismerhetõk arról, hogy napközben aktívak, általában élénk színûek, csápjuk bunkós, és nyugalomban a szárnyukat hátuk fölött összecsukva tartják.</td>
       </tr>
       <tr>
-        <td>három</td>
-        <td>négy</td>
+        <td>A nappali lepkék hátsó szárnyának töve kiszélesedõ, megerõsített, és repülés közben alátámasztja az elülsõ szárnyat.</td>
+        <td> <img class="images" src="k2.jpg" alt="k2"> </td>
       </tr>
-      <td><tr>
-        éjjeli lepkék
-      </tr> </td>
+      <tr>
+        <td colspan="2">éjjeli lepke</td>
+      </tr>
     </table>
   </body>
 </html>

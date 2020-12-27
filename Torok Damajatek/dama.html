@@ -14,11 +14,11 @@
             text-align: center;
         }
         table,td{
-            background-color: #87CEFA;
-            width: 80%;
-            margin-right: auto;
-            margin-left:auto;
-            border-style: ridge;
+          background-color: #87CEFA;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          border-style: ridge;
         }
         #jatek{
             border-style: solid;
@@ -26,15 +26,15 @@
         }
         .images{
             float: left;
-            display: block;
-
+            width: 50%;
+            text-align: center;
         }
 
     </style>
 </head>
 <body>
     <h1>Török dámajáték</h1>
-    <table>
+    <table >
         <tr>
             <td style="width: 20%;"><img id="jatek" src="JATEK.JPG" alt="jatek"></td>
             <td><h2>Kétszemélyes játék</h2>
@@ -50,18 +50,15 @@
                     <li>Az nyer, aki az ellenfél összes bábuját kiüti, illetve mozgásképtelenné teszi, vagy akinek maradt még egy vezíre, miközben az ellenfelének már csak egyetlen közönséges bábuja van.
                         Az úgynevezett nagy török dámajátékot ugyanilyen szabályokkal játszhatjuk 100 mezős táblán, 30-30 bábuval.</li>
                 </ul>
-                <table>
-                    <tr>
-                        <td><div>
-                            <img src="T1.GIF" alt="T1">
-                        </div></td>
-                    <td>
-                        <div>
-                            <img src="T2.GIF" alt="T2">
-                        </div>
-                    </td>
-                    </tr>
-                </table>
+                <div class="row">
+                  <div class="images">
+                    <img id="jatek" src="T1.GIF" alt="T1">
+                  </div>
+                  <div class="images">
+                    <img id="jatek" src="T2.GIF" alt="T2">
+                  </div>
+                </div>
+
             </td>
         </tr>
 
